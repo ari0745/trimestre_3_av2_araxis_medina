@@ -26,7 +26,7 @@ programa{
 
 
   funcao adicionar_produto() {
-  }
+  
     	limpa()
 					escreva("--- CATÁLOGO DE PRODUTOS ---\n")
 					escreva("1. Camisa Esportiva (Estoque: ", estoque_prod1, ") - R$ ", preco_prod1, "\n")
@@ -79,7 +79,6 @@ programa{
   
   
 	funcao inicio(){
-    escreva(adicionar_produto())
 		
 
 		// 1. LAÇO PRINCIPAL DO SISTEMA
